@@ -2,7 +2,7 @@
 
 [![TravisCI](https://img.shields.io/travis/intonate/laravel-mandrill-driver/master.svg?style=flat-square)](https://travis-ci.org/intonate/laravel-mandrill-driver)
 [![StyleCI](https://github.styleci.io/repos/209204562/shield?branch=master)](https://github.styleci.io/repos/209204562)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/intonate/laravel-mandrill-driver/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/intonate/laravel-mandrill-driver/?branch=master)
+[![ScrutinizerCI](https://img.shields.io/scrutinizer/g/intonate/laravel-mandrill-driver.svg?style=flat-square)](https://scrutinizer-ci.com/g/intonate/laravel-mandrill-driver)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/laravel-mandrill-driver/blob/master/LICENSE)
 
 ## Introduction
@@ -11,13 +11,13 @@
 
 ## Installation
 
-To get started simply run:
+First, require the package using composer:
 
 ```sh
 composer require intonate/laravel-mandrill-driver
 ```
 
-Update your `config/services.php` and `.env` files:
+To use the Mandrill driver, set the `MAIL_DRIVER` environment variable to "mandrill". Next, update the `config/services.php` configuration file to include the following options:
 
 ```php
 'mandrill' => [
