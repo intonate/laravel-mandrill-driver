@@ -1,0 +1,54 @@
+{
+    "name": "intonate/laravel-mandrill-driver",
+    "description": "Mandrill mail driver for Laravel 6.0+",
+    "keywords": [
+        "laravel",
+        "mandrill",
+        "driver"
+    ],
+    "type": "library",
+    "version": "1.0.0",
+    "homepage": "https://github.com/intonate/laravel-mandrill-driver",
+    "support": {
+        "issues": "https://github.com/intonate/laravel-mandrill-driver/issues",
+        "source": "https://github.com/intonate/laravel-mandrill-driver"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge González",
+            "email": "scrub.mx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.0",
+        "illuminate/support": "^6.0",
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0",
+        "psy/psysh": "^0.9",
+        "symfony/var-dumper": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Intonate\\Mandrill\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Intonate\\Tests\\Mandrill\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Intonate\\Mandrill\\MandrillServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
