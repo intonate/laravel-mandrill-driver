@@ -23,7 +23,7 @@
     "require": {
         "php": "^7.2",
         "guzzlehttp/guzzle": "^6.0",
-        "illuminate/support": "^6.0",
+        "illuminate/support": "^6.0 | ^7.0",
         "swiftmailer/swiftmailer": "^6.0"
     },
     "require-dev": {
