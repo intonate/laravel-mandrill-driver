@@ -1,5 +1,7 @@
+risky: false
+version: 7
 preset: laravel
-
-disabled:
-  - simplified_null_return
-  - self_accessor
+finder:
+  exclude:
+    - "vendor"
+  name: "*.php"
