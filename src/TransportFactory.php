@@ -2,8 +2,8 @@
 
 namespace Intonate\Mandrill;
 
-use Illuminate\Support\Arr;
 use GuzzleHttp\Client as HttpClient;
+use Illuminate\Support\Arr;
 
 class TransportFactory
 {

@@ -2,9 +2,9 @@
 
 namespace Intonate\Mandrill;
 
-use Swift_Mime_SimpleMessage;
 use GuzzleHttp\ClientInterface;
 use Illuminate\Mail\Transport\Transport;
+use Swift_Mime_SimpleMessage;
 
 class MandrillTransport extends Transport
 {
