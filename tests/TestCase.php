@@ -23,7 +23,8 @@ class TestCase extends \Orchestra\Testbench\TestCase
      */
     protected function getEnvironmentSetUp($app)
     {
-        $app['config']->set('mail.driver', 'mandrill');
+        $app['config']->set('mail.default', 'mandrill');
+        $app['config']->set('mail.mailers.mandrill.transport', 'mandrill');
         $app['config']->set('services.mandrill.secret', 'SomeRandomString');
     }
 }

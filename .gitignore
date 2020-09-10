@@ -1,3 +1,4 @@
 /vendor
+*.bak
 .phpunit.result.cache
 composer.lock

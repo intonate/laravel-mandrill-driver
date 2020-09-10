@@ -9,7 +9,15 @@
 
 **This is a community project and not an "official" one**
 
-## Installation
+## Versions
+
+Laravel | Install
+------- | ------
+ 6.x    | `^1.0`
+ 7.x    | `^1.2`
+ 8.x    | `^2.0`
+
+## Laravel 8 Installation
 
 First, require the package using composer:
 
@@ -17,7 +25,33 @@ First, require the package using composer:
 composer require intonate/laravel-mandrill-driver
 ```
 
-To use the Mandrill driver, set the `MAIL_DRIVER` environment variable to "mandrill". Next, update the `config/services.php` configuration file to include the following options:
+* Add the `MAIL_MAILER` and `MANDRILL_SECRET` environment variables:
+
+```sh
+MAIL_MAILER=mandrill
+MANDRILL_SECRET=YourMandrillAPIKey
+```
+
+* Add mandrill config to the `config/services.php` file:
+
+```php
+'mandrill' => [
+    'secret' => env('MANDRILL_SECRET'),
+],
+```
+
+* Add mandrill option to the `config/mail.php` "mailers" array:
+
+```php
+'mandrill' => [
+    'transport' => 'mandrill',
+],
+```
+
+## Laravel 6 & 7 Installation
+
+* Set the `MAIL_DRIVER=mandrill` and `MANDRILL_SECRET` environment variables.
+* Add mandrill config to the `config/services.php` file:
 
 ```php
 'mandrill' => [
