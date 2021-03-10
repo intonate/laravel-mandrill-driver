@@ -7,7 +7,6 @@
         "driver"
     ],
     "type": "library",
-    "version": "1.0.0",
     "homepage": "https://github.com/intonate/laravel-mandrill-driver",
     "support": {
         "issues": "https://github.com/intonate/laravel-mandrill-driver/issues",
