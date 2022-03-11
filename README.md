@@ -16,8 +16,9 @@ Laravel | Install
  6.x    | `^1.0`
  7.x    | `^1.2`
  8.x    | `^2.0`
+ 9.x    | `^3.0`
 
-## Laravel 8 Installation
+## Laravel 8 & 9 Installation
 
 First, require the package using composer:
 

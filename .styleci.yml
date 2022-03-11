@@ -1,5 +1,5 @@
 risky: false
-version: 7
+version: 8
 preset: laravel
 finder:
   exclude:
