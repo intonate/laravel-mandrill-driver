@@ -2,7 +2,6 @@
 
 [![TravisCI](https://img.shields.io/travis/intonate/laravel-mandrill-driver/master.svg?style=flat-square)](https://travis-ci.org/intonate/laravel-mandrill-driver)
 [![StyleCI](https://github.styleci.io/repos/209204562/shield?branch=master)](https://github.styleci.io/repos/209204562)
-[![ScrutinizerCI](https://img.shields.io/scrutinizer/g/intonate/laravel-mandrill-driver.svg?style=flat-square)](https://scrutinizer-ci.com/g/intonate/laravel-mandrill-driver)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/laravel-mandrill-driver/blob/master/LICENSE)
 
 ## Introduction
