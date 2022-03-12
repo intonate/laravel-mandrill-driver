@@ -1,12 +1,14 @@
 # Laravel Mandrill Driver
 
-[![PHPUnit](https://github.com/intonate/laravel-mandrill-driver/workflows/PHPUnit/badge.svg)](https://github.com/intonate/laravel-mandrill-driver/actions?query=workflow:PHPUnit)
+[![PHPUnit](https://github.com/intonate/laravel-mandrill-driver/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/intonate/laravel-mandrill-driver/actions/workflows/phpunit.yml)
 [![StyleCI](https://github.styleci.io/repos/209204562/shield?branch=master)](https://github.styleci.io/repos/209204562)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/laravel-mandrill-driver/blob/master/LICENSE)
 
 ## Introduction
 
-**This is a community project and not an "official" one**
+> This is a community project and not an "official" one
+
+The missing Mandrill API based mail driver for Laravel
 
 ## Versions
 
