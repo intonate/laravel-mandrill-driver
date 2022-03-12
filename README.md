@@ -4,10 +4,6 @@
 [![StyleCI](https://github.styleci.io/repos/209204562/shield?branch=master)](https://github.styleci.io/repos/209204562)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/laravel-mandrill-driver/blob/master/LICENSE)
 
-## Introduction
-
-> This is a community project and not an "official" one
-
 The missing Mandrill API based mail driver for Laravel
 
 ## Versions
@@ -29,7 +25,7 @@ composer require intonate/laravel-mandrill-driver
 
 * Add the `MAIL_MAILER` and `MANDRILL_SECRET` environment variables:
 
-```sh
+```dotenv
 MAIL_MAILER=mandrill
 MANDRILL_SECRET=YourMandrillAPIKey
 ```
