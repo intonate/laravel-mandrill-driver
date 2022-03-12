@@ -1,6 +1,6 @@
 # Laravel Mandrill Driver
 
-[![TravisCI](https://img.shields.io/travis/intonate/laravel-mandrill-driver/master.svg?style=flat-square)](https://travis-ci.org/intonate/laravel-mandrill-driver)
+[![PHPUnit](https://github.com/intonate/laravel-mandrill-driver/workflows/PHPUnit/badge.svg)](https://github.com/intonate/laravel-mandrill-driver/actions?query=workflow:PHPUnit)
 [![StyleCI](https://github.styleci.io/repos/209204562/shield?branch=master)](https://github.styleci.io/repos/209204562)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/laravel-mandrill-driver/blob/master/LICENSE)
 
