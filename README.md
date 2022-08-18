@@ -17,7 +17,7 @@ Laravel | Install
 
 ## Laravel 8 & 9 Installation
 
-First, require the package using composer:
+* First, require the package using composer:
 
 ```sh
 composer require intonate/laravel-mandrill-driver
