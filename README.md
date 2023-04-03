@@ -8,14 +8,15 @@ The missing Mandrill API based mail driver for Laravel
 
 ## Versions
 
-Laravel | Install
-------- | ------
- 6.x    | `^1.0`
- 7.x    | `^1.2`
- 8.x    | `^2.0`
- 9.x    | `^3.0`
+Laravel  | Install
+-------- | ------
+ 6.x     | `^1.0`
+ 7.x     | `^1.2`
+ 8.x     | `^2.0`
+ 9.x     | `^3.0`
+ 10.x    | `^3.1`
 
-## Laravel 8 & 9 Installation
+## Laravel 8, 9 & 10 Installation
 
 * First, require the package using composer:
 

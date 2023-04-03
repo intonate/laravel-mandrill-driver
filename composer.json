@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": "^8.0.2",
-        "illuminate/support": "^9.0",
+        "illuminate/support": "^9.0|^10.0",
         "mailchimp/transactional": "^1.0",
         "symfony/mailchimp-mailer": "^6.0",
         "symfony/http-client": "^6.0"
