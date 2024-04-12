@@ -10,10 +10,8 @@ class MandrillServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
-     *
-     * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         $this->app['mail.manager']->extend('mandrill', function () {
             return (new MandrillTransportFactory)->create(
