@@ -10,13 +10,14 @@ The missing Mandrill API based mail driver for Laravel
 
 Laravel  | Install
 -------- | ------
- 6.x     | `^1.0`
- 7.x     | `^1.2`
- 8.x     | `^2.0`
- 9.x     | `^3.0`
+ 11.x    | `^4.0`
  10.x    | `^3.1`
+ 9.x     | `^3.0`
+ 8.x     | `^2.0`
+ 7.x     | `^1.2`
+ 6.x     | `^1.0`
 
-## Laravel 8, 9 & 10 Installation
+## Laravel 8, 9, 10 & 11 Installation
 
 * First, require the package using composer:
 
@@ -61,6 +62,7 @@ MANDRILL_SECRET=YourMandrillAPIKey
 ## Credits
 
 - [Jorge González](https://github.com/scrubmx)
+- [Roberto Aguilar](https://github.com/roberto-aguilar)
 - [All Contributors](../../contributors)
 
 ## License
