@@ -1,10 +1,17 @@
-# Laravel Mandrill Driver
+<p align="center"><img src="/logo.svg" title="Laravel Mandrill Driver" alt="Logo Laravel Mandrill Driver"></p>
 
-[![PHPUnit](https://github.com/intonate/laravel-mandrill-driver/actions/workflows/phpunit.yml/badge.svg?branch=master)](https://github.com/intonate/laravel-mandrill-driver/actions/workflows/phpunit.yml)
-[![StyleCI](https://github.styleci.io/repos/209204562/shield?branch=master)](https://github.styleci.io/repos/209204562)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/laravel-mandrill-driver/blob/master/LICENSE)
+<p align="center">
+  <a href="https://github.com/intonate/laravel-mandrill-driver/actions/workflows/phpunit.yml?query=workflow:PHPUnit"><img src="https://github.com/intonate/laravel-mandrill-driver/workflows/PHPUnit/badge.svg" alt="PHPUnit" /></a>
+  <a href="https://styleci.io/repos/209204562"><img src="https://github.styleci.io/repos/209204562/shield?style=flat" alt="StyleCI" /></a>
+  <a href="https://packagist.org/packages/intonate/laravel-mandrill-driver"><img src="https://img.shields.io/packagist/dt/intonate/laravel-mandrill-driver.svg" alt="Total Downloads" /></a>
+  <a href="https://packagist.org/packages/intonate/laravel-mandrill-driver"><img src="https://img.shields.io/packagist/v/intonate/laravel-mandrill-driver.svg?label=stable" alt="Latest Stable Version" /></a>
+  <a href="https://packagist.org/packages/intonate/laravel-mandrill-driver"><img src="https://img.shields.io/packagist/l/intonate/laravel-mandrill-driver.svg" alt="License" /></a>
+</p>
 
 The missing Mandrill API based mail driver for Laravel
+
+> [!NOTE]
+> This is a *community project* and **not** an official Laravel package
 
 ## Versions
 
@@ -17,42 +24,58 @@ Laravel  | Install
  7.x     | `^1.2`
  6.x     | `^1.0`
 
-## Laravel 8, 9, 10 & 11 Installation
+## Installation Guide for Laravel 8, 9, 10 & 11
 
-* First, require the package using composer:
+1. Install the Package via Composer
 
+Run the following command in your terminal to install the package using Composer:
 ```sh
 composer require intonate/laravel-mandrill-driver
 ```
 
-* Add the `MAIL_MAILER` and `MANDRILL_SECRET` environment variables:
+2. Configure Environment Variables
 
+Update your `.env` file with the following environment variables:
 ```dotenv
 MAIL_MAILER=mandrill
 MANDRILL_SECRET=YourMandrillAPIKey
 ```
 
-* Add mandrill config to the `config/services.php` file:
+3. Update Service Configuration
 
+Open your `config/services.php` file and add the Mandrill configuration to it:
 ```php
 'mandrill' => [
     'secret' => env('MANDRILL_SECRET'),
 ],
 ```
 
-* Add mandrill option to the `config/mail.php` "mailers" array:
+4. Configure Mail Driver
 
-```php
-'mandrill' => [
-    'transport' => 'mandrill',
+In your `config/mail.php` file, add the Mandrill mailer configuration to the "mailers" array:
+```diff
+'mailers' => [
++    'mandrill' => [
++        'transport' => 'mandrill',
++    ],
 ],
 ```
 
-## Laravel 6 & 7 Installation
+## Installation Guide for Laravel 6 & 7
 
-* Set the `MAIL_DRIVER=mandrill` and `MANDRILL_SECRET` environment variables.
-* Add mandrill config to the `config/services.php` file:
+Follow these steps to configure the Mandrill mail driver for Laravel 6 and 7:
 
+1. Configure Environment Variables
+
+Update your `.env` file with the following environment variables:
+```dotenv
+MAIL_DRIVER=mandrill
+MANDRILL_SECRET=YourMandrillAPIKey
+```
+
+2. Update Service Configuration
+
+Open the `config/services.php` file and insert the Mandrill configuration:
 ```php
 'mandrill' => [
     'secret' => env('MANDRILL_SECRET'),
