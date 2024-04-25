@@ -53,11 +53,13 @@ Open your `config/services.php` file and add the Mandrill configuration to it:
 4. Configure Mail Driver
 
 In your `config/mail.php` file, add the Mandrill mailer configuration to the "mailers" array:
-```diff
+```php
 'mailers' => [
-+    'mandrill' => [
-+        'transport' => 'mandrill',
-+    ],
+    //...
+
+    'mandrill' => [
+        'transport' => 'mandrill',
+    ],
 ],
 ```
 
